@@ -186,8 +186,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18bc9c;
-  color: white;
+  background: #fff;
+  color: #333;
 }
 @media (max-width: 767px) {
   section {
@@ -245,6 +245,23 @@ section.success {
     margin: 0 0 30px;
   }
 }
+
+.student-resources-content {
+	margin-bottom: 5%;
+}
+.school img {
+	padding: 10% 0;
+}
+
+.school a {
+	margin-top: 5%;
+}
+
+.embed-responsive {
+	margin-top: 5%
+}
+
+
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
