@@ -71,3 +71,10 @@ $(function() {
 $('#name').focus(function() {
     $('#success').html('');
 });
+
+let text = '{ "employees" : [' +
+'{ "UserID": "123", "firstName":"John" , "lastName":"Doe" },' +
+'{ "UserID": "234", "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "UserID": "1345", "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+const obj = JSON.parse(text);
